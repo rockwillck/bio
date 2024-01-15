@@ -27,7 +27,4 @@
 //     console.error('Error sending the request:', error);
 // });
 
-// alert(window.location.href.split("/")[window.location.href.split("/").length - 1])
-console.error = (...args) => {
-    console.log(args)
-}
+alert(window.location.href.split("/")[window.location.href.split("/").length - 1])
