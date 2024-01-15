@@ -27,4 +27,4 @@
 //     console.error('Error sending the request:', error);
 // });
 
-alert(window.location.href.split("/")[window.location.href.split("/").length - 1])
+window.location.href = "tinyurl.com/" + window.location.href.split("/")[window.location.href.split("/").length - 1]
