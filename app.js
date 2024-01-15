@@ -28,4 +28,6 @@
 // });
 
 // alert(window.location.href.split("/")[window.location.href.split("/").length - 1])
-console.log(document.referrer)
+console.error = (...args) => {
+    console.log(args)
+}
